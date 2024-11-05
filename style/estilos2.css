@@ -1,0 +1,548 @@
+* {
+  font-family: "cabin", "arial", "sans-serif";
+  list-style-type: none;
+}
+
+header {
+  width: 1350px;
+  height: 75px;
+  background-color: #007600;
+  position: fixed;
+  z-index: 5;
+}
+
+#logo {
+  width: 75px;
+  height: 60px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 4px;
+}
+
+#logo img {
+  width: 50px;
+  height: 60px;
+}
+
+#title {
+  font-family: "cabin", "handlee", "nunito";
+  font-style: normal;
+  text-align: center;
+  color: white;
+  height: 60px;
+  margin-left: 150px;
+  width: 480px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  position: absolute;
+  font-size: 30px;
+}
+
+#title a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  width: 650px;
+  height: 65px;
+  margin-left: 650px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  position: absolute;
+}
+
+.menu {
+  color: white;
+  height: 65px;
+  width: 100px;
+  margin-top: 0px;
+  margin-right: 5px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#top {
+  width: 1350px;
+  height: 75px;
+  background-color: #007600;
+  position: relative;
+}
+
+#home {
+  width: 1350px;
+  height: 530px;
+  margin: 0px;
+  position: relative;
+}
+
+#slogan {
+  width: 500px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 100px;
+  position: absolute;
+  text-align: center;
+}
+
+#slogan b {
+  color: yellow;
+  font-size: 20px;
+}
+
+#slogan h3 {
+  color: White;
+  font-size: 28px;
+}
+
+#content {
+  width: 1350px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  border: 2px solid #006600;
+  border-radius: 0px;
+}
+
+#titlecontent1 {
+  width: 700px !important;
+  height: 30px;
+  margin-left: 365px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+#titlecontent1 h1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #006600;
+  margin-top: 20px;
+}
+
+#left1 {
+	width: 280px;
+	height: 611px;
+	margin-top: 70px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	position: absolute;
+}
+
+#left1 h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: #006600;
+}
+
+#left1 li {
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#left1 a {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#definition {
+	width: 1020px;
+	height: 620px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 300px;
+}
+
+#definition h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #006600;
+  margin-top: 20px;
+}
+
+#definition h3 {
+	font-size: 16px;
+	font-style: normal;
+	color: #006600;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#definition img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#definition p {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#definition li {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  list-style-type: square;
+  margin-top: 10px;
+}
+
+#content2 {
+  width: 1350px;
+  height: 650px;
+  margin: auto;
+  position: relative;
+  border: 2px solid #006600;
+  border-radius: 0px;
+}
+
+#definition2 {
+  width: 1020px;
+  height: 450px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+#definition2 h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #006600;
+  margin-top: 20px;
+}
+
+#definition2 h3 {
+  font-size: 16px;
+  font-style: normal;
+  color: #006600;
+  margin-top: 20px;
+}
+
+#definition2 img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#definition2 p {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#definition2 li {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  list-style-type: square;
+  margin-top: 10px;
+}
+
+#content3 {
+  width: 1350px;
+  height: 650px;
+  margin: auto;
+  position: relative;
+  border: 2px solid #006600;
+  border-radius: 0px;
+}
+
+#definition3 {
+  width: 1020px;
+  height: 450px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+#definition3 h2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	color: #006600;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#definition3 h3 {
+  font-size: 16px;
+  font-style: normal;
+  color: #006600;
+  margin-top: 20px;
+}
+
+#definition3 img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#definition3 p {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#definition3 li {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  list-style-type: square;
+  margin-top: 10px;
+}
+
+#content4 {
+  width: 1350px;
+  height: 650px;
+  margin: auto;
+  position: relative;
+  border: 2px solid #006600;
+  border-radius: 0px;
+}
+
+#definition4 {
+  width: 1020px;
+  height: 450px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 300px;
+}
+
+#definition4 h2 {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	color: #006600;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#definition4 h3 {
+  font-size: 16px;
+  font-style: normal;
+  color: #006600;
+  margin-top: 20px;
+}
+
+#definition4 img {
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#definition4 p {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#definition4 li {
+  font-size: 14px;
+  font-style: normal;
+  color: #333333;
+  list-style-type: square;
+  margin-top: 10px;
+}
+
+
+#contacts {
+  background-color: #333333;
+  width: 1350px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
+
+#titlecontent2 {
+  width: 700px !important;
+  height: 30px;
+  margin-left: 365px;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+}
+
+#titlecontent2 h1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+#redes {
+  width: 500px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 50px;
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+#redes h1 {
+  font-size: 18px;
+  color: yellow;
+  text-align: center;
+}
+
+#redes ul {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.redes1 {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+
+.redes1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.redes1 img {
+  width: 30px;
+  height: 30px;
+}
+
+#contactos {
+  width: 650px;
+  height: 700px;
+  margin-top: 90px;
+  margin-left: 650px;
+  position: absolute;
+}
+
+footer {
+  background-color: #006600;
+  width: 1350px;
+  height: 400px;
+  margin: auto;
+  position: relative;
+}
+
+#enlaces {
+  width: 450px;
+  height: 350px;
+  margin-top: 20px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#enlaces h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #ffcc00;
+  margin-top: 10px;
+}
+
+#enlaces img {
+  width: 250px;
+  height: 80px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+#interes {
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 480px;
+  position: absolute;
+}
+
+#interes h1 {
+  font-size: 18px;
+  color: yellow;
+  text-align: center;
+}
+
+#interes a {
+  color: white;
+  text-decoration: none;
+}
+
+#interes2 {
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 730px;
+  position: absolute;
+}
+
+#interes2 h1 {
+  font-size: 18px;
+  color: yellow;
+  text-align: center;
+}
+
+#interes2 a {
+  color: white;
+  text-decoration: none;
+}
+
+#interes3 {
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 980px;
+  position: absolute;
+}
+
+#interes3 h1 {
+  font-size: 18px;
+  color: yellow;
+  text-align: center;
+}
+
+#interes3 a {
+  color: white;
+  text-decoration: none;
+}
+
+#credits {
+  width: 700px;
+  height: 150px;
+  margin-top: 200px;
+  margin-left: 500px;
+  position: absolute;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  text-align: right;
+}
+
+#credits h2 {
+  font-size: 24px;
+  color: yellow;
+  text-align: right;
+}
